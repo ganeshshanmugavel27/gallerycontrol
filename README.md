@@ -10,6 +10,17 @@ To create a gallery control using android studio to display images or photos.
 Latest Version Android Studio
 
 ## ALGORITHM:
+1.Prepare Images: Gather the images you want to display in the gallery and store them in the res/drawable folder of your Android project.
+
+2.Design Layout: Create the layout for the main activity (activity_main.xml). Include a Gallery widget to display the images and an ImageView to show the selected image.
+
+3.Set up Adapter: Develop a custom adapter class (CustomizedGalleryAdapter.java) that extends BaseAdapter. Override necessary methods like getCount() and getView() to handle the gallery items and their display.
+
+4.Initialize Gallery: In the main activity (MainActivity.java), initialize the Gallery widget and set its adapter to the custom adapter you created.
+
+5.Handle Item Selection: Implement functionality to respond when the user selects an image from the gallery. Update the ImageView with the selected image accordingly.
+
+
 
 
 
